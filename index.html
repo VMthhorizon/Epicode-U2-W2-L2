@@ -13,86 +13,342 @@
   </head>
   <body>
     <header>
-      <div class="p0">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid mx-5">
-            <img
-              src="/assets/logo-di-viaggio-dettagliato_23-2148616611.avif"
-              style="width: 80px"
-            />
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Saldi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Last Minute</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Recensioni</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Cerchi posti da sogno?"
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-danger" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+        <div class="container d-flex justify-content-between p-0">
+          <img
+            src="/assets/logo-di-viaggio-dettagliato_23-2148616611.avif"
+            style="width: 80px"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Cerchi posti da sogno?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger" type="submit">
+                Search
+              </button>
+            </form>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <section class="container bg-light my-5 p-5">
-        <div class="row">
+      <section class="container bg-light my-5 p-5 rounded-3 shadow">
+        <div class="row g-4">
           <div
-            class="col-12 d-flex justify-content-center align-items-center text-secondary border-bottom border-black"
+            class="col-12 d-flex justify-content-center align-items-center text-secondary border-bottom border-black justify-content-lg-start"
           >
             <h1 class="fw-semibold">Eveline-R</h1>
             <h3 class="fw-lighter fs-5">-Feel the Freedom</h3>
           </div>
           <div
-            class="col-12 d-flex justify-content-center align-content-center"
+            class="col-12 d-flex justify-content-center align-content-center justify-content-lg-start"
           >
-            <h2 class="text-secondary fst-italic fw-light fs-2 text-center">
+            <h2
+              class="text-secondary fst-italic fw-light fs-2 text-center text-lg-start"
+            >
               Scopri le destinazioni più calde del momento
             </h2>
           </div>
-          <div class="col-12 text-center">
+          <div class="col-12 text-center text-lg-start">
             <button type="button" class="btn btn-info text-light">
               Prenota ora
             </button>
           </div>
         </div>
       </section>
-      <div class="row-cols-2 d-flex justify-content-between">
-        <div class="col"><h1>Saldi</h1></div>
-        <div class="col"><h2>Nascondi sezione</h2></div>
+      <div class="container d-flex justify-content-between p-0">
+        <h2>Saldi</h2>
+        <h2 class="">Nascondi Sezione</h2>
       </div>
+      <section class="container p-0 mb-5">
+        <div class="row row-cols-2 g-5 row-cols-md-3 row-cols-lg-4">
+          <div class="col">
+            <div class="card border border-info rounded-2">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-info rounded-2">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-info rounded-2">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col d-md-none d-lg-flex">
+            <div class="card border border-info rounded-2">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container d-flex justify-content-between p-0">
+        <h2>Welcome Summer</h2>
+        <h2 class="">Nascondi Sezione</h2>
+      </div>
+      <section class="container p-0 mb-5">
+        <div class="row row-cols-2 g-3 row-cols-md-3 row-cols-lg-3">
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-2 shadow">
+              <img src="/assets/Koh-Tao.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card’s content.
+                </p>
+                <a href="#" class="btn btn-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container d-flex justify-content-between p-0">
+        <h2>Offerta del giorno</h2>
+      </div>
+      <section class="container p-0 mb-5">
+        <div class="row row-cols-2 g-5">
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-4 shadow"
+            />
+          </div>
+          <div class="col">
+            <h1 class="display-4 lh-1">Fushifaru<br />Maldives</h1>
+            <p>15.01.2021-31.01.2021</p>
+            <p class="lead">
+              Ville a partire da 500$,<br />non fartele sfuggire!
+            </p>
+            <span class="badge rounded-4 bg-dark text-light p-2"
+              >Best offer</span
+            >
+          </div>
+        </div>
+      </section>
+      <div class="container d-flex justify-content-between p-0">
+        <h2>Last Minute</h2>
+      </div>
+      <section class="container p-0 mb-5">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="/assets/Koh-Tao.webp"
+              class="img-fluid rounded-2 shadow"
+            />
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container d-flex justify-content-center p-0">
+        <h2>Dicono di noi</h2>
+      </div>
+      <section class="container p-0 mt-1 mb-5">
+        <div class="row g-4">
+          <div class="col-2 col-md-1">
+            <img
+              src="/assets/foto-cesare-fassari.jpg"
+              class="img-fluid rounded-5 border border-3 border-info"
+              style="width: 70px"
+            />
+          </div>
+          <div class="col-10 col-md-11">
+            <h2>Username</h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+            molestiae consequatur sit dolor natus rerum atque et earum omnis
+            voluptate saepe iste ea sapiente molestias velit, voluptas eligendi,
+            vitae blanditiis?
+          </div>
+          <div class="col-2 col-md-1">
+            <img
+              src="/assets/images.jpg"
+              class="img-fluid rounded-5 border border-3 border-info"
+              style="width: 70px"
+            />
+          </div>
+          <div class="col-10 col-md-11">
+            <h2>Username</h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+            molestiae consequatur sit dolor natus rerum atque et earum omnis
+            voluptate saepe iste ea sapiente molestias velit, voluptas eligendi,
+            vitae blanditiis?
+          </div>
+          <div class="col-2 col-md-1">
+            <img
+              src="/assets/jeff-bezos-montessori.jpg"
+              class="img-fluid rounded-5 border border-3 border-info"
+              style="width: 70px"
+            />
+          </div>
+          <div class="col-10 col-md-11">
+            <h2>Username</h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+            molestiae consequatur sit dolor natus rerum atque et earum omnis
+            voluptate saepe iste ea sapiente molestias velit, voluptas eligendi,
+            vitae blanditiis?
+          </div>
+        </div>
+      </section>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
